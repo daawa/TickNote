@@ -14,7 +14,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name="zzw.mochuan.ticknote.MainActivity"
+            android:name="mm.com.ticknote.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,13 +23,13 @@
             </intent-filter>
         </activity>
         <activity 
-            android:name="zzw.mochuan.ticknote.HistoryActivity">
+            android:name="mm.com.ticknote.HistoryActivity">
              <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name="zzw.mochuan.ticknote.DetailsActivity"   >         
+            android:name="mm.com.ticknote.DetailsActivity"   >         
         </activity>
     </application>
     

@@ -6,6 +6,6 @@
         android:id="@+id/titles"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="zzw.mochuan.ticknote.TitlesFragment" />
+        class="mm.com.ticknote.TitlesFragment" />
    
 </FrameLayout>
