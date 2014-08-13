@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/note_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/note_list_margin_top"
+    android:layoutMode="opticalBounds"
+    android:paddingBottom="@dimen/note_digest_margin_top"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/note_list_margin_top" >
+
+    <ImageView
+        android:id="@+id/note_item_icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        
+        android:contentDescription="test icon"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/note_item_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/note_item_icon1"
+        android:paddingLeft="@dimen/margin_left"
+        android:text="TextView"
+        android:textSize="@dimen/list_diget_fontsize" />
+
+    <TextView
+        android:id="@+id/note_itme_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/note_item_text1"
+        android:layout_toRightOf="@id/note_item_icon1"
+        android:gravity="right"
+        android:paddingRight="@dimen/note_digest_margin_top"
+        android:text="Small Text"
+        android:textAlignment="gravity"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
